@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.HomeActivity">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/newPostCaptionEditTextContainer"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Title"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/video_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/newPostDescEditTextContainer"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Description"
+            android:layout_below="@id/newPostCaptionEditTextContainer"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/video_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <VideoView
+        android:id="@+id/video_space"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/newPostDescEditTextContainer"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_below="@+id/video_space"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:text="Camera"
+                android:textColor="@color/black"
+                android:layout_width="95dp"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:id="@+id/btn_record"
+                android:text="Record"
+                android:textColor="@color/black"
+                android:layout_marginStart="100dp"
+                android:layout_width="95dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/send_btn"
+        android:src="@drawable/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="340dp"
+        android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>

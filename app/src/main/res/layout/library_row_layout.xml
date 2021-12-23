@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    app:cardElevation="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="@drawable/profile_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/video_delete"
+            android:layout_width="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/more"/>
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/playerView_library"
+            android:layout_below="@+id/video_delete"
+            android:layout_width="match_parent"
+            app:use_controller="true"
+            app:resize_mode="fill"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingTop="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/title_library"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:text="Title"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_delete"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="50dp"-->
+<!--            android:layout_toEndOf="@+id/title_library"-->
+<!--            android:src="@drawable/more" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/desc_library"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/title_library"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="Description"-->
+<!--            android:textSize="15sp"-->
+<!--            android:maxLines="3"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/time_library"-->
+<!--            android:layout_below="@+id/iv_delete"-->
+<!--            android:layout_toEndOf="@+id/desc_library"-->
+<!--            android:text="00:00"-->
+<!--            android:textSize="10sp"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        -->
+
+<!--    </RelativeLayout>-->
+
+</androidx.cardview.widget.CardView>

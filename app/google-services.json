@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778143777670",
+    "firebase_url": "https://fir-chatkotlin-996f9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-chatkotlin-996f9",
+    "storage_bucket": "fir-chatkotlin-996f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778143777670:android:c9228ebf032eddba656207",
+        "android_client_info": {
+          "package_name": "com.example.fluttertestproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778143777670-6ti5dko1be4g0vn81vl01m4sdfkt22l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcHI2rjTRC2dsfPpJL00ZuKawFABCfds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778143777670-6ti5dko1be4g0vn81vl01m4sdfkt22l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

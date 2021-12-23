@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/fullscreen.xml" value="0.17962962962962964" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/ic_volume_off_grey_24dp.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/ic_volume_up_grey_24dp.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/more.xml" value="0.16203703703703703" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/nav_background.xml" value="0.16111111111111112" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/drawable/profile_bg.xml" value="0.1685185185185185" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_base.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_user_name_selection.xml" value="0.16666666666666666" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_verify_code.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/activity_video_full_screen.xml" value="0.22" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/explore_item_layout.xml" value="0.22" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/fragment_add_video.xml" value="0.22" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/fragment_explore.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/fragment_library.xml" value="0.12" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/layout_vedio_list_item.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/library_row_layout.xml" value="0.13333333333333333" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/layout/row_layout.xml" value="0.22" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/patel/AndroidProjects/myprojects/MyApplication/app/src/main/res/xml/filepaths.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
